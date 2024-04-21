@@ -2,7 +2,6 @@
 # General Site Settings
 baseurl: "/" # the subpath of your site, e.g. /blog
 url: "https://qelphybox.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-title: "Qelphybox" # the name of your site
 
 #-------------------------------
 # Build Settings
@@ -25,9 +24,9 @@ collections:
   posts:
     output: true
     permalink: /:slug
-  authors:
-    output: true
-    permalink: /:name
+  # authors:
+  #   output: true
+  #   permalink: /:name
 
 # Pages Path
 defaults:
@@ -45,11 +44,11 @@ defaults:
       type: "posts"
     values:
       layout: "post"
-  - scope:
-      path: ""
-      type: "authors"
-    values:
-      layout: "author"
+  # - scope:
+  #     path: ""
+  #     type: "authors"
+  #   values:
+  #     layout: "author"
 
 sass:
   sass_dir: _sass

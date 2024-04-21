@@ -1,15 +1,17 @@
 #-------------------------------
 # Site Settings
-title: Dann
+title: Kirill
 logo: # You can add own logo. For example "/images/logo.png".
-description: Multipurpose Jekyll Blog Theme
+description: Software Developer, Musician and Filmmaker
 
 
 #-------------------------------
 # Author Global Settings
 author:
-  author__name: Dann Kanigan
-  author__bio: Hi there! I’m Dann Kanigan, a Filmmaker and Content Creator based in Toronto, Ontario, Canada. This blog is about learning, life, and inspiring you to take one step forward.
+  author__name: Kirill Bobykin
+  author__bio: >
+    Hi there! I'm Kirill Bobykin, a Filmmaker and Content Creator based in Georgia. 
+    This blog is about learning, life, and inspiring you to take one step forward.
   author__avatar: /images/01-1.jpg
 
 
@@ -23,8 +25,8 @@ menu__settings:
       url: '/about/'
     - title: 'Pages'
       submenu:
-      - url: '/authors/'
-        title: 'Authors'
+      # - url: '/authors/'
+      #   title: 'Authors'
       - url: '/elements/'
         title: 'Elements'
     - title: 'Contact'
@@ -34,8 +36,9 @@ menu__settings:
 #-------------------------------
 # Hero Settings
 hero:
-  hero__title: Hi there! I’m Dann Kanigan, a Filmmaker and Content Creator based in Toronto, Ontario, Canada. This blog is about learning, life, and inspiring you to take one step forward.
-
+  hero__title: >
+    Hi there! I'm Kirill Bobykin, a Filmmaker and Content Creator based in Georgia. 
+    This blog is about learning, life, and inspiring you to take one step forward.
 
 #-------------------------------
 # Blog Settings
